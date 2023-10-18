@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    background-color:  rgb(219, 211, 211);
+    }
+
+    
+ul{
+  margin:0;
+  display: flex;
+  padding:0;
+ }
+      
+    li{
+      font-family: 'Handwriting', sans-serif;
+      font-size: medium;
+    }
+      
+   
+   a{
+      text-decoration: none;
+      color:black ;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Handwriting', sans-serif;
+   }
+   
+   nav ul li {
+      display: inline-block; 
+      vertical-align: auto;
+      text-align: center;
+      position:relative;
+      padding: 10px 133px ;
+     
+   } 
+   
+   #a_propos{
+       background-color: rgb(237, 104, 55);
+   
+   }
+   #recettes{
+       background-color: rgb(219, 211, 211);
+      
+ 
+   }
+   #nos_produis{
+       background-color: rgb(237, 104, 55);
+   
+   }
+   #contact{
+       background-color: rgb(219, 211, 211);
+       padding: 10px 170px;
+   }
+
+
+div#paragraphe{
+  height: 0px;
+  width: 0px;
+  display: inline;
+}
+
+
+#paragraphe{
+  background-color:rgb(237, 104, 55);
+  float: left;
+  height: 500px;
+  width: 965px;
+  text-align: center;
+  line-height: 50px;
+  display: inline;
+  padding: 0;
+}
+
+
+
+
+footer{
+    font-family: 'Handwriting', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+p{
+  position: relative;
+  top: 40px;
+  line-height: 10px;
+ 
+}
+
+
+.social{
+    float: right;
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+  }
+i.fa-brands.fa-square-facebook {
+    color: rgb(31, 31, 96);
+    font-size: 30px;
+  }
+i.fa-brands.fa-instagram{
+    color: rgb(203, 50, 84);
+    font-size: 30px;
+  }
+i.fa-brands.fa-youtube{
+    color: rgb(168, 5, 5);
+    font-size: 30px;
+  }
+  

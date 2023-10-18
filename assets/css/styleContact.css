@@ -1,0 +1,271 @@
+
+body{
+margin: 0;
+background-color: rgb(195, 191, 191);
+}
+
+ul{
+    margin:0;
+    display: flex;
+    padding:0;
+   }
+        
+      li{
+        font-family: 'Handwriting', sans-serif;
+        font-size: medium;
+      }
+        
+     
+     a{
+        text-decoration: none;
+        color:black ;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Handwriting', sans-serif;
+     }
+     
+     nav ul li {
+        display: inline-block; 
+        vertical-align: auto;
+        text-align: center;
+        position:relative;
+        padding: 10px 133px ;
+       
+     } 
+     
+     #a_propos{
+         background-color: rgb(237, 104, 55);
+     
+     }
+     #recettes{
+         background-color: rgb(219, 211, 211);
+        
+   
+     }
+     #nos_produis{
+         background-color: rgb(237, 104, 55);
+     
+     }
+     #contact{
+         background-color: rgb(219, 211, 211);
+         padding: 10px 170px;
+     }
+
+
+h1.bienvenue {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Handwriting';
+    margin: 0;
+    color:rgb(237, 104, 55);
+}
+section#bienvenue{
+   padding: 50px 100px;
+   color:rgb(237, 104, 55);
+ 
+}
+
+p#laisser_un_commentaire{
+    font-family: 'Handwriting', sans-serif;
+    font-weight:700;
+    font-size:20px ;
+
+}
+
+#formulaire{
+
+    position:relative;
+    
+
+}
+#commentaire{
+    height:400px;
+    width: 88%;
+    padding: 20px;
+    border: solid black 1px;
+    margin-left: 20px;
+    
+   
+ }
+ .block{
+    position: relative;
+ }
+ .img{
+    position:absolute;
+    top: 13%;
+    bottom: 54%;
+    right: 0;
+   
+ }
+ img#toque {
+    width: 50%;
+    max-width: 100%;
+}
+ 
+section.sous-form {
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+#nom, #email, #site {
+    width: 406px;
+    height: 30px;
+    margin: 10px;
+    border: solid black 1px;
+    font-family: 'Handwriting', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+
+ /*  #checkboxOneInput{
+    display: block;
+ }*/ 
+
+
+
+ /****chekbox****/
+ .chek {
+    margin-left: 36px;   /* deplacer le tout a droite */
+}
+
+input#subscribeNews{    /* espace entre chek el la phrase */
+    margin-right: 22px;
+
+}
+
+button#boutton{
+    width: 150px;
+    height: 45px;
+    color: black;
+    text-align: center;
+    font-family: 'Handwriting', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(237, 104, 55);
+    border: none;
+    padding: 5px 20px;
+    margin-top: 30px;
+    float: right;
+    position: inherit;
+    margin-right: 146px;
+}
+
+
+section.contactez-nous{   /* maps + position */
+    position: relative;
+    width: 1330px;
+    height: 400px;
+    padding: 50px;
+}
+
+.partie-1 {   /* maps + nous contacter */
+    width: 358px;
+    padding: 20px;
+}
+ 
+h2#nous_contacter{    /* nous contacter */
+    font-family: 'Handwriting', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 95px;
+    text-align: center;
+    line-height: 67px;
+}
+
+i.fa-solid.fa-location-dot {   /* icone maps */
+    font-size: 55px;
+    color: rgb(206, 42, 42);
+    margin-left: 166px;
+}
+
+.partie-2{    /* div de l 'image position */
+position: absolute;   
+right: 0;
+top: 19%;
+bottom: 0;
+
+}
+img#position {    /* image position */
+    width: 77%;
+    max-width: 100%;
+}
+
+/*#maps{  faux
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 500px;
+}*/
+
+/*#media{   faux
+    height: 20px;
+    width: 100px;
+}*/
+
+section.coordonnee {
+    display: flex;  /* adress tel mail*/
+    /*gap: 45px;*/ 
+    height: 100px;
+    position: relative;
+    padding: 0 120px; 
+    text-align: center;
+    justify-content: space-between;
+}
+
+/*#coordonnee{   faux
+    display:flex;
+}*/
+
+
+.add-cor /*class adresse */,p#adresse /* id adresse*/ ,p#num /* id num*/ ,p#azza /* id mail */{
+    font-family: 'Handwriting', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.tel-cor{  /* class de num */
+    font-family: 'Handwriting', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+.\@-cor{   /*classe mail */
+    font-family: 'Handwriting', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+
+footer{   /* p + 3 icones */
+    font-family: 'Handwriting', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.social{    /*les 3 icones */
+    float: right;
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+i.fa-brands.fa-square-facebook {
+    color: rgb(31, 31, 96);
+    font-size: 30px;
+}
+i.fa-brands.fa-instagram{
+    color: rgb(203, 50, 84);
+    font-size: 30px;
+}
+i.fa-brands.fa-youtube{
+    color: rgb(168, 5, 5);
+    font-size: 30px;
+}

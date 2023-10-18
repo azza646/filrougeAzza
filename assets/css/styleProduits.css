@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+   background-color: rgb(219, 211, 211);
+  }
+
+
+ul{
+ margin:0;
+ display: flex;
+ padding:0;
+}
+     
+   li{
+     font-family: 'Handwriting', sans-serif;
+     font-size: medium;
+   }
+     
+  
+  a{
+     text-decoration: none;
+     color:black ;
+     font-weight: bold;
+     text-align: center;
+     font-family: 'Handwriting', sans-serif;
+  }
+  
+  nav ul li {
+     display: inline-block; 
+     vertical-align: auto;
+     text-align: center;
+     position:relative;
+     padding: 10px 133px ;
+    
+  } 
+  
+  #a_propos{
+      background-color: rgb(237, 104, 55);
+  
+  }
+  #recettes{
+      background-color: rgb(219, 211, 211);
+     
+
+  }
+  #nos_produis{
+      background-color: rgb(237, 104, 55);
+  
+  }
+  #contact{
+      background-color: rgb(219, 211, 211);
+      padding: 10px 170px;
+  }
+
+  h1.produits{
+  background-color: white;
+  text-align: center;
+  line-height: 63px;
+  font-size: 24px;
+  font-family: 'Handwriting', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  
+}
+
+
+
+
+#ganache_montee{
+  height:100%;
+  width: 580px;
+  object-fit: cover;
+ 
+}
+
+#base{
+     
+    height: 100%;
+    width: 580px;
+    object-fit: cover;
+}
+
+#pate{
+  height:100%;
+    width:100%;
+    max-width: 100%;
+    object-fit: cover;
+
+  }
+
+  #creme{
+    height:100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+
+
+button#button {
+  position: absolute;
+  height: 40px;
+  width: 232px;
+  font-size: 23px; 
+  border: none;
+  background-color: white;
+  bottom: 50px;
+  left: 200px;   
+  text-align: center;
+}
+
+
+div#images{      /* img 1 img2 img3 */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:0;
+}
+
+.parti-1 {   /*img 1+ img2*/
+  /*display: flex;
+  flex-direction: column;    ou */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:0;
+}
+
+
+
+
+
+.img.img-1 {  /*  image1 + boutton + h3+ p (text)   */
+  width: 500px;
+}
+.img.img-2{    /*  image2 + boutton + h3+ p (text)   */
+  height: 585px;
+  width: 500px;
+}
+.img.img-3 {   /*  image3 + boutton + h3+ p (text)   */
+  margin-left: -160px;
+  
+}
+.img.img-4{   /*  image4 + boutton + h3+ p (text)   */
+  height: 500px;
+}
+
+.img.img-1,.img.img-2,.img.img-3,.img.img-4{
+  position: relative;
+  /*z-index: 0;    j ai oublier de le mettre */
+}
+
+
+
+
+/*****Ingredients*****/
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*.container {
+  display: inline-block;
+  position: relative;
+}*/
+
+
+.text {  /* div (h1 ingredient et p text) */
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;   
+  position: absolute;
+  text-align: center;
+  font-family: Georgia;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 32%;
+  color:black;
+  height: 29%;
+  width: 42%;
+  padding: 10px;
+  display:none;
+}
+
+/*.text :hover{     le text s 
+  display: block; 
+}
+*/
+.text p{
+  line-height: 19px;
+  top:0;
+}
+
+
+
+footer{
+  font-family: 'Handwriting', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+line-height: 35px;
+}
+
+
+.social{
+
+  float: right;
+  top:650px;
+  margin: 40px;
+ 
+}
+i.fa-brands.fa-square-facebook {
+  color: rgb(31, 31, 96);
+  font-size: 30px;
+}
+i.fa-brands.fa-instagram{
+  color: rgb(203, 50, 84);
+  font-size: 30px;
+}
+i.fa-brands.fa-youtube{
+  color: rgb(168, 5, 5);
+  font-size: 30px;
+}
+
+
+
+
+
+
